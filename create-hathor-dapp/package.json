@@ -1,0 +1,59 @@
+{
+  "name": "create-hathor-dapp",
+  "version": "1.0.0",
+  "description": "Scaffold a new Hathor dApp project with one command",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "create-hathor-dapp": "./bin/cli.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "template"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "hathor",
+    "dapp",
+    "blockchain",
+    "scaffold",
+    "template",
+    "cli",
+    "nano-contracts",
+    "walletconnect",
+    "metamask",
+    "nextjs",
+    "typescript",
+    "web3"
+  ],
+  "author": "Hathor Network",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HathorNetwork/hathor-dapp-template"
+  },
+  "bugs": {
+    "url": "https://github.com/HathorNetwork/hathor-dapp-template/issues"
+  },
+  "homepage": "https://github.com/HathorNetwork/hathor-dapp-template#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "prompts": "^2.4.2",
+    "picocolors": "^1.0.0",
+    "execa": "^8.0.1",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/prompts": "^2.4.9",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
