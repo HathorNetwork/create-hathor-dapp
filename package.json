@@ -1,5 +1,5 @@
 {
-  "name": "hathor-dapp-template",
+  "name": "create-hathor-dapp",
   "version": "1.0.0",
   "description": "A production-ready Next.js template for building decentralized applications on Hathor Network with WalletConnect and MetaMask Snaps integration",
   "private": true,
